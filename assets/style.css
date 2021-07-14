@@ -1,5 +1,34 @@
-#header-img{
-    width: 100%;
-    height: 5%;
-    margin: auto;
+#header-img {
+  width: 100%;
+  height: 5%;
+  margin: auto;
+}
+
+nav {
+  margin: 0;
+  border-bottom: 1px solid grey;
+}
+ul {
+  list-style-type: none;
+  height: 5px;
+}
+
+li {
+  display: inline;
+}
+
+.search {
+  width: 316px;
+  height: 33px;
+}
+
+#main_product_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#description {
+  width: 388px;
+  height: 78px;
 }
