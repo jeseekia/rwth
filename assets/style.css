@@ -58,4 +58,66 @@ background-size: cover;
     margin:auto;
     background-color: #7A7A7A;
 }
+.info-about{
+    width: 888px;
+    height: 222px;
+}
 
+.info-about h1{
+    width: 181px;
+    height: 36px;
+    
+    font-size: 26;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info-about p{
+    width: 888px;
+    height: 108px;
+    font-size: 14;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info-return{
+    width: 888px;
+    height: 222px;
+}
+
+.info-return h1{
+    width: 385px;
+    height: 36px;
+    font-size: 26;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info-return p{
+    width: 888px;
+    height: 108px;
+    font-size: 14;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info-shipping{
+    width: 888px;
+    height: 222px;
+
+}
+.info-shipping h1{
+    width: 132px;
+    height: 36px;
+    font-size: 26;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.info-shipping p{
+    width: 888px;
+    height: 108px;
+    margin: auto;
+    font-size: 14;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
