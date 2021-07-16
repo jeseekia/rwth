@@ -63,6 +63,16 @@ li {
   justify-content: space-around;
 }
 
+#header-img {
+  /* width: 1080px; */
+  width: 1490px;
+  height: 543px;
+  margin: auto;
+  /* background-color: #000000;  */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .social {
   display: flex;
   margin: auto;
