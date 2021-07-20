@@ -83,9 +83,12 @@ li {
 
 
 .products.html {
+  width: 880px;
+  height: 1300px;
+  
   color: black;
   background-color:bisque;
-  font-family: helvetica;
+  font-family: Arial, Helvetica, sans-serif
 
 }
 #twtr {
