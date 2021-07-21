@@ -184,7 +184,7 @@ float:right;
 text-align:center;
 }
 
-.flex-container{
+.container{
   display:block;
   background-color: green;
   width: 964px;
@@ -199,4 +199,13 @@ text-align:center;
 .qty-input{
   width:90px;
   height: 36px;
+}
+
+.prod-title{
+  font-family: Lato;
+  font-size: 24px;
+}
+
+.product-tally{
+  float:right;
 }
