@@ -181,17 +181,27 @@ li {
 }
 
 /* Cart.html */
-.navbar {
+.cart-navbar {
   display: flex;
   height: 50px;
   background-color: lightgray;
 }
 
-/* #search-box{
-  width:15px;
-  float:left;
-} */
 
+.nav-titles{
+  font-size: 16px;
+  font:Source Sans Pro;
+  color:#606060;
+  font-weight: 300;
+}
+.nav-list{
+  width: 233px;
+  height:26px;
+}
+
+.search-box{
+  
+}
 .footer {
   position: fixed;
   left: 0;
@@ -205,9 +215,6 @@ li {
   text-align: center;
 }
 
-.flex-container {
-  display: block;
-}
 .container {
   display: block;
   background-color: green;
