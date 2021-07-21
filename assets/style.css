@@ -209,3 +209,19 @@ text-align:center;
 .product-tally{
   float:right;
 }
+
+#total{
+  color:#606060;
+  font-family:Source Sans Pro;
+  font-size:26px;
+  width:74px;
+  height:33px; 
+}
+
+#checkout-btn{
+  color:#232323;
+  background-color: #EBEBEB;
+  font-size:24px;
+  width:170px;
+  height: 45px;
+}
