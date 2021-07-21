@@ -175,3 +175,25 @@ li {
   width: 100%;
   background-color:lightgrey;
 }
+
+#price-title{
+float:right; 
+text-align:center;
+}
+
+.flex-container{
+  display:block;
+  background-color: green;
+  width: 964px;
+  height:175px;
+}
+
+.box-content{
+  border-color: black;
+
+}
+
+.qty-input{
+  width:90px;
+  height: 36px;
+}
