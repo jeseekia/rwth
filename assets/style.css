@@ -107,6 +107,12 @@ li {
   width: 30px;
 }
 
+#twtr {
+  padding: 20px;
+  width: 30px;
+}
+
+
 .products.html {
   width: 880px;
   height: 1300px;
@@ -114,23 +120,20 @@ li {
   background-color: bisque;
   font-family: helvetica;
 }
-#twtr {
-  padding: 20px;
-  width: 30px;
-}
-.info-about {
-  width: 888px;
-  height: 222px;
+
+.info-about{
+    width: 888px;
+    height: 222px;
 }
 
-.info-about h1 {
-  width: 181px;
-  height: 36px;
-
-  font-size: 26;
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
+.info-about h1{
+    width: 181px;
+    height: 36px;
+    font-size: 26;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .info-about p {
   width: 888px;
   height: 108px;
@@ -250,6 +253,14 @@ li {
   height:33px; 
 }
 
+.info-shipping h1{
+    width: 132px;
+    height: 36px;
+    font-size: 26;
+    color: black;
+    font-family: Arial, Helvetica, sans-se rif;
+}
+
 #checkout-btn{
   color:#232323;
   background-color: #EBEBEB;
@@ -257,3 +268,51 @@ li {
   width:170px;
   height: 45px;
 }
+
+.info-shipping p{
+    width: 888px;
+    height: 108px;
+    margin: auto;
+    font-size: 14;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  height: 263px;
+  width: 983px;
+
+}
+
+.team{
+  width: 141px;
+  height: 263px;
+}
+
+.team img{
+  width: 141px;
+  height: 96px;
+  background-color: blue;
+  margin-top: 32px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+
+}
+
+.team p{
+  width: 141px;
+  height: 54px;
+color: black;
+margin-bottom: 10px;
+}
+
+.a{
+  height: 19px;
+  width: 65px;
+  color: #006CE5;
+}
+
