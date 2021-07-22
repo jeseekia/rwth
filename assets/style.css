@@ -1,8 +1,24 @@
-.navbar {
+.navbarparent {
   margin: 0;
   border-bottom: 1px solid grey;
   display: flex;
   flex-direction: row;
+}
+
+.navbarchildimg {
+  flex: 3%;
+  margin-left: 2%;
+}
+
+.navbarchildlinks {
+  flex: 20%;
+  justify-content: flex-start;
+}
+
+.navbarchildsearch {
+  display: flex;
+  justify-content: flex-end;
+  flex: 50%;
 }
 
 .navbar a {
@@ -23,12 +39,6 @@ ul {
 li {
   display: inline;
   border-style: solid;
-}
-
-#searchfield {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: row;
 }
 
 #search {
