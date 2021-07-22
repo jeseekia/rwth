@@ -12,28 +12,24 @@
 
 <body>
 <!-- Navbar -->
-<nav class="navbar">
-<ul>
-    <li><a href="products.html">Products</a></li>
-    <li id="input-box"><a href="about.html">About</a></li>
+<nav class="cart-navbar">
+<ul class="nav-list">
+    <li class="nav-titles"><a href="products.html">Products</a></li>
+    <li class="nav-titles"><a href="about.html">About</a></li>
+</ul>
 <label class="search-box">
 <span>Search</span>
 <input type="search" id="site-search" name="q"
        aria-label="Search through site content">
-</ul>
 </label>
 </nav>
 
 <br>
 </br>
 
-    <!-- Pricing Boxes -->
-    <!-- <div>
-        <span id="price-title">
-            <p>Qty.</p>  
-            <p>Price </p>
-         </span>
-        </div> -->
+   <!-- Shopping Cart -->
+   <label for="quantity">Qty.</label>
+   <label for="quantity">Price</label>
     <section class="container">
         <form class="box-content">
        
@@ -82,11 +78,12 @@
 </br>
 
 <div class="product-tally">
-<p>Total: $613</p>
-<button>Checkout</button>
+<p id="total">Total: $613</p>
+<button id="checkout-btn">Checkout</button>
 </div> 
 
-
+<br>
+</br>
                 <!-- Footer -->
                 <div class="footer">
                     <i class="fab fa-twitter"></i>
