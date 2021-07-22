@@ -288,6 +288,10 @@ li {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/* about page */
+
+
 .flex-container{
   display: flex;
   flex-direction: row;
@@ -296,6 +300,12 @@ li {
   height: 263px;
   width: 983px;
 
+}
+.team-text{
+width: 80px;
+height: 36px;
+margin-left: 102px;
+margin-top: 49px;
 }
 
 .team{
@@ -326,3 +336,9 @@ margin-bottom: 10px;
   color: #006CE5;
 }
 
+.hero-banner{
+  width: 1020px;
+  height: 543px;
+}
+
+/* about page end*/
