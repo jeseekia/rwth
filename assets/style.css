@@ -111,15 +111,29 @@ li {
   padding: 20px;
   width: 30px;
 }
-
-
-.products.html {
+/*Norah/Products*/
+.products.html body {
   width: 880px;
   height: 1300px;
-  color: black;
   background-color: bisque;
-  font-family: helvetica;
 }
+  .products.html flexbox-container {
+    dislay: flex;
+    justify-content: space-around;
+}
+.products.html section {
+  width: 00px;
+  height: 00px;
+  background-color: bisque;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-direction: row;
+}
+.products.html p {
+  background-color: bisque;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*Norah/Products*/
 
 .info-about{
     width: 888px;
