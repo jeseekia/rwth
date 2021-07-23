@@ -18,7 +18,7 @@
     <li class="nav-titles"><a href="about.html">About</a></li>
 </ul>
 <label class="search-box">
-<span>Search</span>
+<span>Search:</span>
 <input type="search" id="site-search" name="q"
        aria-label="Search through site content">
 </label>
@@ -28,59 +28,62 @@
 </br>
 
    <!-- Shopping Cart -->
-   <label for="quantity">Qty.</label>
-   <label for="quantity">Price</label>
-    <section class="container">
-        <form class="box-content">
-       
-           <img src="https://via.placeholder.com/150"/>
-           <p class="prod-title">Product Title .....</p>
-     
-            <form>
-                <!-- Quantity Input box -->
-                <input type="text" class="qty-input" id="qty" name="qty">
-            </form>
-        </form>
-    </section>
+
+
+   <div class="small-container cart-page">
+    <table>
+        <tr>
+            <th>Quantity</th>
+            <th>Price</th>
+        </tr>
+        <td>
+            <img class="cart-pic" src="https://via.placeholder.com/140x100"/> 
+        </td>
+        <td>Product Title.......... </td>
+        <td><input type="number" value=""></td>
+        <td>$1232</td>
+    </table>
+    
+    <!--Second Table-->
     <br>
 </br>
+    <table>
+        <td>
+            <img class="cart-pic" src="https://via.placeholder.com/140x100"/> 
+        </td>
+        <td>Product Title.......... </td>
+        <td><input type="number" value=""></td>
+        <td>$1232</td>
+    </table>
 
-    <section class="container">
-        <form class="box-content">
-       
-           <img src="https://via.placeholder.com/150"/>
-           <p class="prod-title">Product Title .....</p>
-     
-            <form>
-                <!-- Quantity Input box -->
-                <input type="text" class="qty-input" id="qty" name="qty">
-            </form>
-        </form>
-    </section>
+    <!-- Third Table -->
     <br>
 </br>
+    <table>
+        <td>
+            <img class="cart-pic" src="https://via.placeholder.com/140x100"/> 
+        </td>
+        <td>Product Title.......... </td>
+        <td><input type="number" value=""></td>
+        <td>$1232</td>
+    </table>
+</div>
 
-    <section class="container">
-        <form class="box-content">
-       
-           <img src="https://via.placeholder.com/150"/>
-           <p class="prod-title">Product Title .....</p>
-     
-            <form>
-                <!-- Quantity Input box -->
-                <input type="text" class="qty-input" id="qty" name="qty">
-            </form>
-        </form>
-    </section>
-    <br>
-</br>
-<br>
-</br>
+<!-- Checkout/Total -->
 
-<div class="product-tally">
+<table class="total-price">
+    <tr>
+        <td>Total:</td>    
+        <td>$613</td>
+      
+
+    </tr>
+</table>
+   
+<!-- <div class="product-tally">
 <p id="total">Total: $613</p>
 <button id="checkout-btn">Checkout</button>
-</div> 
+</div>  -->
 
 <br>
 </br>

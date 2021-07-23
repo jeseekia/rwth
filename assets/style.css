@@ -198,6 +198,31 @@ li {
   background-color: lightgray;
 }
 
+.cart-page {
+  margin: 80px auto;
+}
+.cart-pic {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+th {
+  text-align: right;
+  padding: 5px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px 5px;
+}
+td input {
+  width: 90px;
+  height: 36px;
+  padding: 5px;
+}
 .nav-titles {
   font-size: 16px;
   font: Source Sans Pro;
@@ -235,12 +260,18 @@ li {
 .box-content {
   border-color: black;
 }
-
-.qty-input {
-  width: 90px;
-  height: 36px;
+.total-price {
+  display: flex;
+  justify-content: flex-end;
 }
 
+.total-price table {
+  border-top: 3px;
+  width: 100;
+  max-width: 350px;
+}
+
+/* 
 .prod-title {
   font-family: Lato;
   font-size: 24px;
@@ -266,6 +297,7 @@ li {
   font-family: Arial, Helvetica, sans-se rif;
 }
 
+
 #checkout-btn {
   color: #232323;
   background-color: #ebebeb;
@@ -274,6 +306,18 @@ li {
   height: 45px;
 }
 
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgrey;
+}
+/* cart.html */
+
+/*  */
 .info-shipping p {
   width: 888px;
   height: 108px;
@@ -283,6 +327,16 @@ li {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.info-shipping h1 {
+  width: 132px;
+  height: 36px;
+  font-size: 26;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*  */
+/* about page */
+
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -290,6 +344,12 @@ li {
   justify-content: space-evenly;
   height: 263px;
   width: 983px;
+}
+.team-text {
+  width: 80px;
+  height: 36px;
+  margin-left: 102px;
+  margin-top: 49px;
 }
 
 .team {
@@ -318,3 +378,10 @@ li {
   width: 65px;
   color: #006ce5;
 }
+
+.hero-banner {
+  width: 1020px;
+  height: 543px;
+}
+
+/* about page end*/
