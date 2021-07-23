@@ -291,6 +291,10 @@ li {
 
 /* about page */
 
+.about-all{
+margin-left: 102px;
+
+}
 
 .flex-container{
   display: flex;
@@ -304,8 +308,8 @@ li {
 .team-text{
 width: 80px;
 height: 36px;
-margin-left: 102px;
-margin-top: 49px;
+/* margin-left: 20px;
+margin-top: 49px; */
 }
 
 .team{
