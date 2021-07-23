@@ -3,16 +3,14 @@
   border-bottom: 1px solid grey;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .navbarchildimg {
-  flex: 3%;
-  margin-left: 2%;
-}
-
-.navbarchildlinks {
-  flex: 20%;
-  justify-content: flex-start;
+  margin-left: 56px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-self: center;
 }
 
 .navbarchildsearch {
@@ -21,24 +19,25 @@
   flex: 50%;
 }
 
-.navbar a {
-  color: #606060;
-  text-decoration: none;
-  padding: 14px 20px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 300;
-  font-family: Source Sans Pro;
+#navul {
+  background-color: red;
+  width: 233px;
+  height: 26px;
 }
 
-ul {
-  list-style-type: none;
-  display: inline;
+li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 12%;
 }
 
 li {
   display: inline;
   border-style: solid;
+  background-color: salmon;
+  text-decoration: none;
+  padding: 1%;
 }
 
 #search {
@@ -122,7 +121,6 @@ li {
   width: 30px;
 }
 
-
 .products.html {
   width: 880px;
   height: 1300px;
@@ -131,17 +129,17 @@ li {
   font-family: helvetica;
 }
 
-.info-about{
-    width: 888px;
-    height: 222px;
+.info-about {
+  width: 888px;
+  height: 222px;
 }
 
-.info-about h1{
-    width: 181px;
-    height: 36px;
-    font-size: 26;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
+.info-about h1 {
+  width: 181px;
+  height: 36px;
+  font-size: 26;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .info-about p {
@@ -193,6 +191,9 @@ li {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
+
 /* Cart.html */
 .cart-navbar {
   display: flex;
@@ -200,8 +201,8 @@ li {
   background-color: lightgray;
 }
 
-.cart-page{
-  margin:80px auto;
+.cart-page {
+  margin: 80px auto;
 }
 
 .cart-pic{
@@ -220,34 +221,46 @@ li {
   height:26px;
 }
 
-th{
-  text-align:right;
-  padding:5px;
+th {
+  text-align: right;
+  padding: 5px;
 }
-table{
-  width:100%;
+table {
+  width: 100%;
   border-collapse: collapse;
 }
 
-td{
-  padding:10px 5px;
+td {
+  padding: 10px 5px;
 }
-td input{
-  width:90px;
-  height:36px;
-  padding:5px;
+td input {
+  width: 90px;
+  height: 36px;
+  padding: 5px;
 }
 
 
-.total-price{
-  display:flex;
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgrey;
+}
+
+
+.box-content {
+  border-color: black;
+}
+.total-price {
+  display: flex;
   justify-content: flex-end;
 }
 
-.total-price table{
-  /* border-top:3px; */
-  width:34px;
-  /* max-width:350px; */
+.total-price table {
+  border-top: 3px;
+  width: 100;
+  max-width: 350px;
 }
 
 /* 
@@ -264,13 +277,11 @@ td input{
   height:33px; 
 } */
 
-
-
-#checkout-btn{
-  color:#232323;
-  background-color: #EBEBEB;
-  font-size:24px;
-  width:170px;
+#checkout-btn {
+  color: #232323;
+  background-color: #ebebeb;
+  font-size: 24px;
+  width: 170px;
   height: 45px;
 }
 
@@ -286,26 +297,44 @@ td input{
 
 
 
+
+
+
+
+
+
 /*  */
-.info-shipping p{
-    width: 888px;
-    height: 108px;
-    margin: auto;
-    font-size: 14;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
+.info-shipping p {
+  width: 888px;
+  height: 108px;
+  margin: auto;
+  font-size: 14;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.info-shipping h1{
+.info-shipping h1 {
   width: 132px;
   height: 36px;
   font-size: 26;
   color: black;
-  font-family: Arial, Helvetica, sans-se rif;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 /*  */
+
+
+
+
+
+
+
 /* about page */
 
+.about-all{
+margin-left: 102px;
+
+}
 
 .flex-container{
   display: flex;
@@ -314,44 +343,43 @@ td input{
   justify-content: space-evenly;
   height: 263px;
   width: 983px;
-
 }
+
 .team-text{
 width: 80px;
 height: 36px;
-margin-left: 102px;
-margin-top: 49px;
+/* margin-left: 20px;
+margin-top: 49px; */
 }
 
-.team{
+.team {
   width: 141px;
   height: 263px;
 }
 
-.team img{
+.team img {
   width: 141px;
   height: 96px;
   background-color: blue;
   margin-top: 32px;
   margin-right: 30px;
   margin-bottom: 10px;
-
 }
 
-.team p{
+.team p {
   width: 141px;
   height: 54px;
-color: black;
-margin-bottom: 10px;
+  color: black;
+  margin-bottom: 10px;
 }
 
-.a{
+.a {
   height: 19px;
   width: 65px;
-  color: #006CE5;
+  color: #006ce5;
 }
 
-.hero-banner{
+.hero-banner {
   width: 1020px;
   height: 543px;
 }
