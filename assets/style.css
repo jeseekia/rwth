@@ -198,15 +198,26 @@ li {
   display: flex;
   height: 50px;
   background-color: lightgray;
- 
 }
 
 .cart-page{
   margin:80px auto;
 }
+
 .cart-pic{
   display:flex;
-  flex-wrap:wrap;
+  /* flex-wrap:wrap; */
+}
+
+.nav-titles{
+  font-size: 16px;
+  font:Source Sans Pro;
+  color:#606060;
+  font-weight: 300;
+}
+.nav-list{
+  width: 233px;
+  height:26px;
 }
 
 th{
@@ -226,16 +237,7 @@ td input{
   height:36px;
   padding:5px;
 }
-.nav-titles{
-  font-size: 16px;
-  font:Source Sans Pro;
-  color:#606060;
-  font-weight: 300;
-}
-.nav-list{
-  width: 233px;
-  height:26px;
-}
+
 
 .total-price{
   display:flex;
@@ -243,19 +245,15 @@ td input{
 }
 
 .total-price table{
-  border-top:3px;
-  width:100;
-  max-width:350px;
+  /* border-top:3px; */
+  width:34px;
+  /* max-width:350px; */
 }
 
 /* 
 .prod-title {
   font-family: Lato;
   font-size: 24px;
-}
-
-.product-tally{
-  float:right;
 }
 
 #total{
@@ -275,7 +273,6 @@ td input{
   width:170px;
   height: 45px;
 }
-
 
 .footer {
   position: fixed;
