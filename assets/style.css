@@ -202,7 +202,9 @@ li {
 }
 
 .cart-page {
-  margin: 80px auto;
+  margin:auto;
+  width:964px;
+  height: 175px;
 }
 
 .cart-pic{
