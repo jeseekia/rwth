@@ -209,6 +209,8 @@ li {
 
 .cart-pic{
   display:flex;
+  width: 151px;
+  height: 115px;
   /* flex-wrap:wrap; */
 }
 
