@@ -11,76 +11,86 @@
 
 
 <body>
-<!-- Navbar -->
-<nav class="cart-navbar">
-<ul class="nav-list">
-    <li class="nav-titles"><a href="products.html">Products</a></li>
-    <li class="nav-titles"><a href="about.html">About</a></li>
-</ul>
-<label class="search-box">
-<span>Search</span>
-<input type="search" id="site-search" name="q"
-       aria-label="Search through site content">
-</label>
-</nav>
+    <header class="cart-header">
+        <div class="navbar-container">
+            <img src="https://via.placeholder.com/40x40" alt="logo"/>
+            <!-- Navbar -->
+        <nav class="navbar-container">
+    <ul class="nav-list">
+        <li class="nav-titles"><a href="products.html">Products</a></li>
+        <li class="nav-titles"><a href="about.html">About</a></li>
+    </ul>
+    <label class="search-box">
+    <span>Search:</span>
+    <input type="search" id="site-search" name="q"
+           aria-label="Search through site content">
+    </label>
+    </nav>
+        </div>
+    </header>
+
 
 <br>
 </br>
 
    <!-- Shopping Cart -->
-   <label for="quantity">Qty.</label>
-   <label for="quantity">Price</label>
-    <section class="container">
-        <form class="box-content">
-       
-           <img src="https://via.placeholder.com/150"/>
-           <p class="prod-title">Product Title .....</p>
-     
-            <form>
-                <!-- Quantity Input box -->
-                <input type="text" class="qty-input" id="qty" name="qty">
-            </form>
-        </form>
-    </section>
-    <br>
-</br>
 
-    <section class="container">
-        <form class="box-content">
-       
-           <img src="https://via.placeholder.com/150"/>
-           <p class="prod-title">Product Title .....</p>
-     
-            <form>
-                <!-- Quantity Input box -->
-                <input type="text" class="qty-input" id="qty" name="qty">
-            </form>
-        </form>
-    </section>
-    <br>
-</br>
 
-    <section class="container">
-        <form class="box-content">
-       
-           <img src="https://via.placeholder.com/150"/>
-           <p class="prod-title">Product Title .....</p>
-     
-            <form>
-                <!-- Quantity Input box -->
-                <input type="text" class="qty-input" id="qty" name="qty">
-            </form>
-        </form>
-    </section>
+   <div class="small-container cart-page">
+    <table class="">
+        <tr>
+            <th>Quantity</th>
+            <th id="item-cost">Price</th>
+        </tr>
+        
+    </table>
+    <table class="price-table">
+        <td>
+            <img class="cart-pic" src="https://via.placeholder.com/140x100"/> 
+        </td>
+        <td>Product Title.......... </td>
+        <td><input type="number" value=""></td>
+        <td>$1232</td>
+    </table>
+    <!--Second Table-->
     <br>
 </br>
+    <table class="price-table">
+        <td>
+            <img class="cart-pic" src="https://via.placeholder.com/140x100"/> 
+        </td>
+        <td>Product Title.......... </td>
+        <td><input type="number" value=""></td>
+        <td>$1232</td>
+    </table>
+
+    <!-- Third Table -->
+    <br>
+</br>
+    <table class="price-table">
+        <td>
+            <img class="cart-pic" src="https://via.placeholder.com/140x100"/> 
+        </td>
+        <td>Product Title.......... </td>
+        <td><input type="number" value=""></td>
+        <td>$1232</td>
+    </table>
+</div>
+
 <br>
 </br>
-
-<div class="product-tally">
+<!-- Checkout/Total -->
+<!-- <div></div>
+<table class="total-price">
+    <tr>
+        <td>Total:</td>    
+        <td>$613</td>
+    </tr>
+</table>  -->
+<!-- <div class="product-tally">
 <p id="total">Total: $613</p>
 <button id="checkout-btn">Checkout</button>
-</div> 
+</div>  -->
 
 <br>
 </br>
