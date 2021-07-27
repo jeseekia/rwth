@@ -195,10 +195,16 @@ li {
 
 
 /* Cart.html */
-.cart-navbar {
+
+.navbar-container{
+  width:68px;
+  height: 42px;
   display: flex;
   height: 50px;
   background-color: lightgray;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 .cart-page {
