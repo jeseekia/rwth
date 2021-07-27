@@ -196,15 +196,31 @@ li {
 
 /* Cart.html */
 
-.navbar-container{
+.navbar-header{
   width:68px;
   height: 42px;
-  display: flex;
-  height: 50px;
-  background-color: lightgray;
   display:flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-titles{
+  font-size: 16px;
+  font:Source Sans Pro;
+  color:#606060;
+  font-weight: 300;
+  background-color: white;
+} 
+
+ .nav-list{
+  width: 233px;
+  height:26px;
+}
+
+
+.cart-header{
+  background:#ebebeb;
+
 }
 
 .cart-page {
@@ -220,17 +236,6 @@ li {
   /* flex-wrap:wrap; */
 }
 
-.nav-titles{
-  font-size: 16px;
-  font:Source Sans Pro;
-  color:#606060;
-  font-weight: 300;
-  background-color: white;
-}
-.nav-list{
-  width: 233px;
-  height:26px;
-}
 
 th {
   text-align: right;
