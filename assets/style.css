@@ -245,10 +245,7 @@ th {
   height: 34px;
 }
 
-/* #item-cost{
-  width:55px;
-  height:34px;
-} */
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -256,13 +253,13 @@ table {
 
 .price-table{
   border:none;
-  box-shadow:2px 2px 4px rgba(0,0,0);
+  box-shadow:2px 2px 3px rgba(0,0,0);
   transform:scale(1.01);
 
 }
 
 td {
-  padding: 10px 5px;
+  padding: 6px 5px;
   width: 341px;
   height:26px;
 }
@@ -296,7 +293,7 @@ footer {
   max-width: 350px;
 }
 
-/* 
+
 .prod-title {
   font-family: Lato;
   font-size: 24px;
@@ -308,7 +305,7 @@ footer {
   font-size:26px;
   width:74px;
   height:33px; 
-} */
+} 
 
 #checkout-btn {
   color: #232323;
