@@ -148,7 +148,7 @@ li {
 }
 
 .info-about h1 {
-  width: 181px;
+  width: 220px;
   height: 36px;
   font-size: 26;
   color: black;
@@ -251,10 +251,6 @@ th {
   height: 34px;
 }
 
-/* #item-cost{
-  width:55px;
-  height:34px;
-} */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -267,7 +263,7 @@ table {
 }
 
 td {
-  padding: 10px 5px;
+  padding: 6px 5px;
   width: 341px;
   height: 26px;
 }
@@ -277,7 +273,7 @@ td input {
   padding: 5px;
 }
 
-.footer {
+footer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -299,19 +295,18 @@ td input {
   max-width: 350px;
 }
 
-/* 
 .prod-title {
   font-family: Lato;
   font-size: 24px;
 }
 
-#total{
-  color:#606060;
-  font-family:Source Sans Pro;
-  font-size:26px;
-  width:74px;
-  height:33px; 
-} */
+#total {
+  color: #606060;
+  font-family: Source Sans Pro;
+  font-size: 26px;
+  width: 74px;
+  height: 33px;
+}
 
 #checkout-btn {
   color: #232323;
@@ -321,7 +316,7 @@ td input {
   height: 45px;
 }
 
-.footer {
+footer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -356,6 +351,12 @@ td input {
   margin-left: 102px;
 }
 
+.text-heading {
+  color: #232323;
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -366,7 +367,7 @@ td input {
 }
 
 .team-text {
-  width: 80px;
+  width: 181px;
   height: 36px;
   /* margin-left: 20px;
 margin-top: 49px; */
@@ -375,6 +376,8 @@ margin-top: 49px; */
 .team {
   width: 141px;
   height: 263px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26;
 }
 
 .team img {
