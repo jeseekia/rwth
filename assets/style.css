@@ -135,11 +135,12 @@ li {
 }
 
 .info-about h1 {
-  width: 181px;
+  width: 220px;
   height: 36px;
   font-size: 26;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 .info-about p {
@@ -268,7 +269,8 @@ td input {
   padding: 5px;
 }
 
-.footer {
+
+footer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -349,6 +351,8 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 /*  */
 
 
@@ -362,6 +366,13 @@ footer {
 .about-all{
 margin-left: 102px;
 
+
+}
+
+.text-heading{
+  color: #232323;
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .flex-container{
@@ -374,7 +385,7 @@ margin-left: 102px;
 }
 
 .team-text{
-width: 80px;
+width: 181px;
 height: 36px;
 /* margin-left: 20px;
 margin-top: 49px; */
@@ -383,6 +394,8 @@ margin-top: 49px; */
 .team {
   width: 141px;
   height: 263px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26;
 }
 
 .team img {
