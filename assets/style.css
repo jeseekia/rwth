@@ -200,9 +200,7 @@ li {
 .navbar-header{
   width:68px;
   height: 42px;
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
+  /* display:flex; */
 }
 
 .nav-titles{
