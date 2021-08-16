@@ -3,6 +3,21 @@
   text-align:center;
 }
 
+.footer-container{
+  background-color:lightgray;
+  padding-bottom:4rem;
+  /* width: 1080px; 
+  height: 1731px;   */
+  margin: auto;
+}
+
+.footer-menu{
+
+}
+
+
+
+/*  */
 .navbarparent {
   margin: 0;
   border-bottom: 1px solid grey;
