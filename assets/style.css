@@ -1,19 +1,17 @@
 /* index */
-
-.footer-container{
+ .footer-container{
   background-color:gray;
-  padding-bottom:4rem;
-  margin: 0;
-  padding:0;
-  box-sizing: border-box;
-  
-}
+    padding-bottom:4rem; 
+    padding:2rem 4rem;
+    box-sizing: border-box; 
+    width:100%;
+   }  
 
 .footer-menu{
 width:80%;
 height:40%;
 background-color:gray;
-color:black;
+color:white;
 display:flex;
 justify-content: center;
 flex-wrap: wrap;
@@ -31,13 +29,13 @@ margin: auto;
 }
 
 .footer-heading a{
-  color:black;
+  color:white;
   text-decoration:none;
   margin-bottom: 0.5rem;
 }
 
 .footer-heading a:hover{
-  color:white;
+  color:red;
   transition: 0.3s ease-out;
 }
 
