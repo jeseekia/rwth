@@ -212,11 +212,12 @@ li {
 .first-row, .second-row , .third-row{
   display: flex;
   justify-content: center;
+  box-shadow:  10px 10px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
 }
 
 .flex-item-1 , .flex-item-2 , .flex-item-3{
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
+ 
   padding: 2px 16px;
   width:100%;
 }
