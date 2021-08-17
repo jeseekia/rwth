@@ -111,9 +111,7 @@ li {
   justify-content: center; */
  
 }
-.flex-item{
-  color:red;
-}
+
 
 
 .productmid {
@@ -210,6 +208,10 @@ li {
 .info-about {
   width: 888px;
   height: 222px;
+}
+
+.first-row, .second-row , .third-row{
+  display: flex;
 }
 
 .info-about h1 {
