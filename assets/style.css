@@ -45,6 +45,13 @@ margin: auto;
   transition: 0.3s ease-out;
 }
 
+.navbar-container{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+  background-color:gray;
+}
+
 
 
 /* index */
@@ -174,24 +181,7 @@ li {
   background-size: cover;
 }
 
-.social {
-  display: flex;
-  margin: auto;
-}
-#insta {
-  padding: 20px;
-  width: 30px;
-}
 
-#fb {
-  padding: 20px;
-  width: 30px;
-}
-
-#twtr {
-  padding: 20px;
-  width: 30px;
-}
 
 /*Norah/Products*/
 
