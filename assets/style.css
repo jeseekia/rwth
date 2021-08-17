@@ -26,12 +26,18 @@ margin: auto;
 
 .footer-heading h2{
   margin-bottom: 2rem;
+  font-size:16px;
+  font-style:Source Sans Pro;
+  font-weight: 300px;
 }
 
 .footer-heading a{
   color:white;
   text-decoration:none;
   margin-bottom: 0.5rem;
+  font-size:16px;
+  font-style:Source Sans Pro;
+  font-weight: 300px;
 }
 
 .footer-heading a:hover{
@@ -39,7 +45,10 @@ margin: auto;
   transition: 0.3s ease-out;
 }
 
-/*  */
+
+
+/* index */
+
 .navbarparent {
   margin: 0;
   border-bottom: 1px solid grey;
@@ -93,13 +102,21 @@ li {
 }
 
 #main_product_image {
-  display: block;
+  display:block;
   margin-left: 197px;
   margin-bottom: 20px;
+  /* align-items: center;
+  justify-content: center; */
+ 
 }
 
 .productmid {
   display: flex;
+  justify-content: center;
+}
+
+.product-divider{
+  width:85%;
 }
 
 #alternate_image_1 {
