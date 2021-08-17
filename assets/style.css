@@ -45,12 +45,7 @@ margin: auto;
   transition: 0.3s ease-out;
 }
 
-.navbar-container{
-  box-sizing: border-box;
-  padding:0;
-  margin:0;
-  background-color:gray;
-}
+
 
 
 
@@ -116,6 +111,10 @@ li {
   justify-content: center; */
  
 }
+.flex-item{
+  color:red;
+}
+
 
 .productmid {
   display: flex;
