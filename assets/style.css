@@ -222,9 +222,10 @@ li {
 .first-row, .second-row , .third-row{
   display: flex;
   justify-content: center;
-  box-shadow:  10px 10px 10px rgba(0, 0, 0, 0.5);
+  box-shadow:  10px 10px 10px none;
   transition: 0.3s;
   width:85%;
+  border:none;
 }
 
 .item-desc{
