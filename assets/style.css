@@ -228,13 +228,14 @@ li {
   border:none;
 }
 
+.flex-item-1 , .flex-item-2 , .flex-item-3{
+  padding: 2px 16px;
+}
+
 .item-desc{
   text-align:center;
 }
 
-.flex-item-1 , .flex-item-2 , .flex-item-3{
-  padding: 2px 16px;
-}
 .info-about h1 {
   width: 220px;
   height: 36px;
