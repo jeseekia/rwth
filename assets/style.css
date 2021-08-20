@@ -67,18 +67,24 @@ margin: auto;
 .navbarchildsearch {
   display: flex;
   justify-content: flex-end;
-  flex: 50%;
+  flex:50%;
 }
 
 #navul {
-  /* background-color: red; */
   width: 233px;
   height: 26px;
 }
 .navbar-products{
   display:inline;
   background-color: white;
-  border-color: none;
+  border:none;
+}
+
+.navv-name{
+  color:#606060;
+  font-size:16px;
+  font-weight:300px;
+  font-style:Source Sans Pro;
 }
 li a {
   text-decoration: none;
