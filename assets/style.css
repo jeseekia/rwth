@@ -115,15 +115,6 @@ li {
 
 /* Product.html */
 
-/* #main_product_image {
-  display:block;
-  margin-left: 197px;
-  margin-bottom: 20px; */
-  /* align-items: center;
-  justify-content: center; */
- 
-/* } */
-
 .product-hero{
   display: flex;
   justify-content: center;
@@ -139,15 +130,18 @@ li {
   width:85%;
 }
 
-.product-images{
+.product_images{
+  display:flex;
   justify-content: center;
+  
 }
 
-/* .alternate-images{
-  display:flex;
-  justify-content:center;
-  align-content: flex-start;
-} */
+/* 
+ .alternate-images{
+  
+}  */
+
+
 /* #alternate_image_1 {
   margin-left: 197px;
 }
