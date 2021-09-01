@@ -130,27 +130,20 @@ li {
   width:85%;
 }
 
-.product_images{
-  display:flex;
+
+.prod-image{
+  display: inline-flex;
   justify-content:space-evenly;
   align-items: center;
-  
-} 
-
-/* 
- .alternate-images{
-  display:flex;
-  align-items: center;
-  justify-content: space-between;
-}  */
-
-
-/* #alternate_image_1 {
-  margin-left: 197px;
 }
-#alternate_image_2 {
-  margin-left: 20px;
+
+
+ /* #alternate_image_1 {
+  margin-left: 197px;
 } */
+/* #alternate_image_2 , #alternate_image_1{
+  margin-left: 20px;
+}  */
 
 #description {
   width: 388px;
